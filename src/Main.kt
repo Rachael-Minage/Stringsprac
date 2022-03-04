@@ -19,8 +19,8 @@ fun sentence(x: String, y: Int): String{
 
 }
 fun length(){
-    var c = "A stich in time saves nine"
-    println("This string has ${c.length} characters")
+    var c = "Makodofia"
+    println(c.length)
 
 }
 fun verify(){
