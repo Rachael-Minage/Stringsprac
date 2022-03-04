@@ -1,18 +1,22 @@
-fun main(){
+fun main(){  verify()
     names()
-    sentence()
+    var wholeSentence = sentence("RACHAEL",56)
+    println(wholeSentence)
     length()
-    verify()
+
 }
+
+
+
 fun names(){
     var a = "Akirachix"
-    var b = (a[0].toString() + a[2] + a[3])
+    var b = (a[0].toString()+ a[2] + a[3])
     println(b)
 }
-fun sentence(){
-    var name = "Rachael Minage"
-    var age = 40
-    println("Hi,my name is $name and I am $age years old")
+fun sentence(x: String, y: Int): String{
+    var z = "Hi, my name is $x and I am $y years old"
+    return z
+
 }
 fun length(){
     var c = "A stich in time saves nine"
